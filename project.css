@@ -1,0 +1,168 @@
+#wrapper { width: 80%;
+	background-color: #000000;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#banner { background-image:url('Hartman_Matthew_Images/arcade.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	width: 100%;
+}
+
+table { margin-left: auto;
+	margin-right: auto;
+}
+
+tr {background-color: #5b5b5b;
+	color: #eacf10;
+}
+
+h1 { line-height: 200%;
+	color: #eacf10;
+	background-color: #5b5b5b;
+	text-align: center;
+}
+
+ul{ text-align: left;
+	color: #eacf10;
+}
+
+nav { text-align: center;
+	background-color: #5b5b5b;
+	color: #04d9ff;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+
+
+p { color: #eacf10;
+	padding-left: 40px;
+}
+
+nav a{ color: #eacf10;
+}
+
+h4{ color: #eacf10;
+}
+
+h3{ color: #eacf10;
+	text-align: center;
+	font-weight: bold;
+}
+
+h2{ line-height: 150%;
+	color: #eacf10;
+	background-color: #5b5b5b;
+	text-align: center;
+	font-weight: bold;
+}
+/*
+This configures the form so it is centered and goes top to bottom
+as well as setting the background color for the display
+*/
+form { display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 250px;
+	background-color: #5b5b5b;
+}
+
+/*
+This configures the field set to contain the form in and give it a more appealing look
+it is set to be centered and stay centered, and keeps the boarder solid and conformed to
+the forms dimentions
+*/
+fieldset { width: 120px;
+    border: 2px ridge;
+    padding: 5px;
+    margin: auto;
+}
+/*configures the font for the legend*/
+legend { font-family: Georgia, "Times New Roman", serif;
+         font-weight: bold; 
+}
+/*configures the font for the label*/
+
+label { font-family: Arial, sans-serif; 
+}
+
+body { background-image: url(Hartman_Matthew_Images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+/*configures the text area element*/
+textarea { margin-bottom: .5em;
+}
+
+/*configures the submit element for the button*/
+submit { display: grid;
+	grid-column: 2;
+	width: 9em;
+}
+
+footer { color: #eacf10;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #5b5b5b;
+	font-size: .60em;
+	font-style: italic;
+	text-align: center;
+}
+
+.container{ display: flex;
+	column-gap: 50px;
+}
+
+.box-1{ height: 300px;
+	width: 300px;
+	background-color: #5b5b5b;
+	margin-left: 400px;
+	background-image: url(Hartman_Matthew_Images/soulstone.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.box-2{ height: 300px;
+	width: 300px;
+	background-color: #5b5b5b;
+}
+
+.box-2r{ height: 300px;
+	width: 300px;
+	background-color: #5b5b5b;
+	background-image: url(Hartman_Matthew_Images/2XKO.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+
+.box-3{ height: 300px;
+	width: 300px;
+	margin-left: 400px;
+	background-color: #5b5b5b;
+	background-image: url(Hartman_Matthew_Images/wip.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.box-4{ height: 300px;
+	width: 300px;
+	background-color: #5b5b5b;
+	background-image: url(Hartman_Matthew_Images/wip.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
